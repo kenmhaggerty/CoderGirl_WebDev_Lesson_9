@@ -1,4 +1,6 @@
-# Lesson 9 (Conditionals) Assignment — Conditionals
+# CoderGirl_WebDev_Lesson_9 — Assignment
+
+### Lesson 9 — Conditionals
 
 It's time for... Wheel! Of! Fortune!
 
