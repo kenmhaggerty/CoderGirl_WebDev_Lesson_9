@@ -16,9 +16,10 @@ var word = 'ANSWER'; // ALL CAPS
 var isGuessingLetter = true; // set to false to guess solution
 
 // If they are guessing a letter, set the letter that they are
-// guessing.
+// guessing. If they are guessing the word, then set the word
+// as their guess.
 
-var letter = 'A'; // UPPERCASE
+var guess = 'A'; // UPPERCASE
 
 // SCRIPT ////////////////////////////////////////////////////////////
 
