@@ -7,14 +7,26 @@
 // In this exercise we will set the variables ourselves.
 
 // Set a secret word!
+
 var user = prompt("Would you like to play Wheel of Fortune?");
 user ? console.log("Wonderful!  Your word contains: 4 letters.") : console.log("Then go away!");
 var guess = prompt("Would you like to guess a letter or a word?");
 switch(guess) {
 	case "letter":
-		console.log("Ok!");
+		var letter = console.log("Ok!  Guess a letter!");
 		break;
-		var letter = prompt("Guess a letter!");
+	case "word":
+		var word = console.log("Ok!  Guess a word!");
+		break;
+}
+		switch(word) {
+			case "FIVE":
+				console.log("Congratulations! You won Wheel Of Fortune!");
+				break;
+			default:
+				console.log("Nope, keep trying!");
+				break;
+		}
 		switch(letter) {
 			case "F":
 				console.log("There is one F!  F_ _ _");
@@ -31,21 +43,7 @@ switch(guess) {
 				console.log("Nope, no" + letter + "keep trying!"); 
 				break;
 		}
-		break;
-	case "word":
-		console.log("Ok!");
-		break;
-		var word = prompt("Guess a word");
-		switch(word) {
-			case "FIVE":
-				console.log("Congratulations! You won Wheel Of Fortune!");
-				break;
-			default:
-				console.log("Nope, keep trying!");
-				break;
-		}
-		break;
-}
+		
 
 
 
