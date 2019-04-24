@@ -7,19 +7,59 @@
 // In this exercise we will set the variables ourselves.
 
 // Set a secret word!
+var user = prompt("Would you like to play Wheel of Fortune?");
+user ? console.log("Wonderful!  Your word contains: 4 letters.") : console.log("Then go away!");
+var guess = prompt("Would you like to guess a letter or a word?");
+switch(guess) {
+	case "letter":
+		console.log("Ok!");
+		break;
+		var letter = prompt("Guess a letter!");
+		switch(letter) {
+			case "F":
+				console.log("There is one F!");
+				break;
+			case "I":
+				console.log("There is one I!");
+				break;
+			case "V":
+				console.log("There is one V!");
+				break;
+			case "E":
+				console.log("There is one E!");
+			default:
+				console.log("Nope, keep trying!"); 
+				break;
+		}
+		break;
+	case "word":
+		console.log("Ok!");
+		break;
+		var word = prompt("Guess a word");
+		switch(word) {
+			case "FIVE":
+				console.log("Congratulations! You won Wheel Of Fortune!");
+				break;
+			default:
+				console.log("Nope, keep trying!");
+				break;
+		}
+		break;
+}
 
-var word = 'ANSWER'; // ALL CAPS
+
 
 // Ask player if they would like to guess a letter or guess the
 // solution.
 
 var isGuessingLetter = true; // set to false to guess solution
 
+
 // If they are guessing a letter, set the letter that they are
 // guessing. If they are guessing the word, then set the word
 // as their guess.
 
-var guess = 'A'; // UPPERCASE
+
 
 // SCRIPT ////////////////////////////////////////////////////////////
 
