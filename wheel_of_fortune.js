@@ -17,18 +17,18 @@ switch(guess) {
 		var letter = prompt("Guess a letter!");
 		switch(letter) {
 			case "F":
-				console.log("There is one F!");
+				console.log("There is one F!  F_ _ _");
 				break;
 			case "I":
-				console.log("There is one I!");
+				console.log("There is one I!  _I_ _");
 				break;
 			case "V":
-				console.log("There is one V!");
+				console.log("There is one V!  _ _V_");
 				break;
 			case "E":
-				console.log("There is one E!");
+				console.log("There is one E!  _ _ _E");
 			default:
-				console.log("Nope, keep trying!"); 
+				console.log("Nope, no" + letter + "keep trying!"); 
 				break;
 		}
 		break;
@@ -52,7 +52,7 @@ switch(guess) {
 // Ask player if they would like to guess a letter or guess the
 // solution.
 
-var isGuessingLetter = true; // set to false to guess solution
+
 
 
 // If they are guessing a letter, set the letter that they are
